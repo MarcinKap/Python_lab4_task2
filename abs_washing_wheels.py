@@ -14,16 +14,16 @@ class RisingWheelsWithWater(AbstractWashingWheels):
     def __init__(self):
         super().__init__()
 
-    def washing_wheels(self, washing):
-        pass
+    def washing_wheels(self):
+        print('woskowanie auta')
 
 
 class CleaningWheelsWithAChemical(AbstractWashingWheels):
     def __init__(self):
         super().__init__()
 
-    def washing_wheels(self, washing):
-        pass
+    def washing_wheels(self):
+        print('woskowanie auta')
 
 
 class WashingWheelsProgramForm(AbstractWashingWheels):
